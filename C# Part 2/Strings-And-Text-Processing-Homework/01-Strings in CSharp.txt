@@ -1,0 +1,16 @@
+1/ Describe the strings in C#.
+-> Strings in C# are a sequence of symbols.
+
+2/ What is typical for the string data type?
+-> It has a fixed length.
+-> It's stored in the managed heap.
+
+3/ Describe the most important methods of the String class.
+-> Split() - splits string by a given separator.
+-> Join() - concatenates all elements of a string array by a given separator between each element.
+-> Replace() - replaces all found strings with another one.
+-> Concat() - combines 2 or more strings. Better than using "+".
+-> Substring() - extracts substrings.
+
+
+
