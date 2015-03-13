@@ -8,8 +8,8 @@ namespace _01_Define_class
 {
     class Display
     {
-       private double displaySize = 1.96;
-       private int displayNumberColors;
+       private double displaySize = 0;
+       private int displayNumberColors = 0;
 
         // PROPERTIES:
                 // DisplaySize

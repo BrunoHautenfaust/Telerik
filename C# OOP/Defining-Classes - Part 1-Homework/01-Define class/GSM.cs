@@ -8,21 +8,21 @@ namespace _01_Define_class
 {
     class GSM
     {
-      private string model = "W610i";
-      private string manufacturer = "Sony Ericsson";
-      private decimal price = 150m;
-      private string owner = null;
+        private string model = null;
+        private string manufacturer = null;
+        private decimal price = 0;
+        private string owner = null;
 
-      private static string IPhone4S = null;
+        private static string IPhone4S = null;
 
         // PROPERTIES:
-             // Model
+        // Model
         public string Model
-        { 
-                get
-                {
-                    return this.model;
-                }
+        {
+            get
+            {
+                return this.model;
+            }
             set
             {
                 if (value == null)
@@ -32,9 +32,10 @@ namespace _01_Define_class
                 this.model = value;
             }
         }
-             // Manufacturer
-        public string Manufacturer {
-           get
+        // Manufacturer
+        public string Manufacturer
+        {
+            get
             {
                 return this.manufacturer;
             }
@@ -47,7 +48,7 @@ namespace _01_Define_class
                 this.manufacturer = value;
             }
         }
-             // Price
+        // Price
         public decimal Price
         {
             get
@@ -63,7 +64,7 @@ namespace _01_Define_class
                 this.price = value;
             }
         }
-             // Owner
+        // Owner
         public string Owner
         {
             get
@@ -80,8 +81,8 @@ namespace _01_Define_class
             }
         }
 
-                // IPhone4S
-    //    public static string IPhone4S { get; set; }
+        // IPhone4S
+        //    public static string IPhone4S { get; set; }
 
         // CONSTRUCTORS:
         public GSM(string model, string manufacturer)
@@ -95,7 +96,7 @@ namespace _01_Define_class
             this.manufacturer = manufacturer;
             this.price = price;
         }
-          public GSM(string model, string manufacturer, decimal price, string owner)
+        public GSM(string model, string manufacturer, decimal price, string owner)
         {
             this.model = model;
             this.manufacturer = manufacturer;
