@@ -130,6 +130,12 @@ namespace Task_1___GSM
         }
 
         // CONSTRUCTORS:
+        public GSM(string model, string manufacturer)
+        {
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+        }
+
         public GSM(string model, string manufacturer, decimal? price, string owner)
         {
             this.Model = model;
@@ -141,8 +147,8 @@ namespace Task_1___GSM
         public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery, Display display)
             : this(model, manufacturer, price, owner)
         {
-            this.battery = battery;
-            this.display = display;
+            this.Battery = battery;
+            this.Display = display;
         }
 
         public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery, Display display, List<Call> callHistory)
@@ -153,16 +159,14 @@ namespace Task_1___GSM
 
         // METHODS
 
-        public void AddCall(DateTime date, int dialedNumber, int duration)
+        public void AddCall(Call call)
         {
-            Call addedCall = new Call(date, dialedNumber, duration);
-            CallHistory.Add(addedCall);
+            this.CallHistory.Add(call);
         }
 
-        public void DeleteCall(DateTime date, int dialedNumber, int duration)
+        public void DeleteCall(Call call)
         {
-            Call deletedCall = new Call(date, dialedNumber, duration);
-            CallHistory.Remove(deletedCall);
+            this.CallHistory.Remove(call);
         }
 
         public void ClearHistory()

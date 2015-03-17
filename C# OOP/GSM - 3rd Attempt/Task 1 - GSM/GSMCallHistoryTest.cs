@@ -21,7 +21,6 @@ namespace Task_1___GSM
         };
 
         // Add test calls to call history         @!@?!?!?!?!
-
 	
     }
 }
