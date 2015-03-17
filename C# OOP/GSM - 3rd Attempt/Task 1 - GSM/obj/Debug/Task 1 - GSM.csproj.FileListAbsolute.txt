@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\bin\Debug\Task 1 - GSM.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\obj\Debug\Task 1 - GSM.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\bin\Debug\Task 1 - GSM.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\bin\Debug\Task 1 - GSM.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\obj\Debug\Task 1 - GSM.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\GSM - 3rd Attempt\Task 1 - GSM\obj\Debug\Task 1 - GSM.pdb
