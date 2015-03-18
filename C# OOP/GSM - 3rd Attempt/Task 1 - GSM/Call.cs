@@ -23,16 +23,16 @@ namespace Task_1___GSM
             this.Duration = duration;
         }
 
-        
-        //// ToString:
-        //public override string ToString()
-        //{
-        //    StringBuilder callInfo = new StringBuilder();
-        //    callInfo.AppendFormat("Date: {0}\n", date)
-        //        .AppendFormat("Dialed Number: {0}\n", dialedNumber)
-        //        .AppendFormat("Duration: {0}\n", duration);
-        //    return callInfo.ToString();
-        //}
+
+        // ToString:
+        public override string ToString()
+        {
+            StringBuilder callInfo = new StringBuilder();
+            callInfo.AppendFormat("Date: {0}\n", Date)
+                .AppendFormat("Dialed Number: {0}\n", DialedNumber)
+                .AppendFormat("Duration: {0}\n", Duration);
+            return callInfo.ToString();
+        }
         
 
     }

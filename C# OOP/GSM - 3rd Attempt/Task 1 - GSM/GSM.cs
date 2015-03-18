@@ -154,7 +154,13 @@ namespace Task_1___GSM
         public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery, Display display, List<Call> callHistory)
             : this(model, manufacturer, price, owner, battery, display)
         {
-            this.CallHistory = new List<Call>();     // Why do I create a list here like this and not where the fields are!!?
+            this.CallHistory = callHistory;     // Why do I create a list here like this and not where the fields are!!?
+        }
+
+        public GSM(string model, string manufacturer, List<Call> callHistory)
+            : this(model, manufacturer)
+        {
+            this.CallHistory = callHistory; 
         }
 
         // METHODS
@@ -182,8 +188,23 @@ namespace Task_1___GSM
                 totalDuration += callHistory[i].Duration;
             }
             decimal totalPrice = price * totalDuration;
-            return totalDuration;
+            return totalDuration / 60;
         }
+
+        //public string PrintCallHistory()
+        //{
+        //    return string.Format("Call history:\n{0}", string.Join(Environment.NewLine, new List<Call>(this.callHistory)));
+        //}
+        public string PrintCallHistory()
+        {
+            StringBuilder printCallhistory = new StringBuilder();
+            foreach (Call call in this.callHistory)
+            {
+                printCallhistory.Append(call.ToString());
+            }
+            return printCallhistory.ToString();
+        }
+       
 
         // ToString
         public override string ToString()
