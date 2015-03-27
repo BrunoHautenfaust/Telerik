@@ -1,0 +1,8 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\Point3D\bin\Debug\Point3D.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\Point3D\bin\Debug\Point3D.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\Point3D\bin\Debug\Point3D.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\Point3D\obj\Debug\Point3D.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\Point3D\obj\Debug\Point3D.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Defining Classes - Part 2\Point3D\bin\Debug\Point3D.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Defining Classes - Part 2\Point3D\obj\Debug\Point3D.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Defining Classes - Part 2\Point3D\obj\Debug\Point3D.pdb

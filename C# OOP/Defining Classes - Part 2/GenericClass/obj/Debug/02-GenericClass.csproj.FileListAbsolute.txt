@@ -1,0 +1,3 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\GenericClass\bin\Debug\GenericClass.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\GenericClass\obj\Debug\GenericClass.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining Classes - Part 2\GenericClass\obj\Debug\GenericClass.pdb

@@ -1,0 +1,2 @@
+point coordinates(1.5, 2, 3.6)
+point coordinates(4, 2.2, 7)
