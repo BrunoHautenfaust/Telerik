@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\bin\Debug\02-Students and workers.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\bin\Debug\02-Students and workers.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\bin\Debug\02-Students and workers.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\obj\Debug\02-Students and workers.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\obj\Debug\02-Students and workers.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 1\02-Students and workers\obj\Debug\02-Students and workers.pdb
