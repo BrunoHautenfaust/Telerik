@@ -1,1 +1,0 @@
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Task1\GSM\bin\Debug\GSM.exe.config
