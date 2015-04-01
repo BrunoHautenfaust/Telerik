@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\bin\Debug\03-Range Exceptions.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\obj\Debug\03-Range Exceptions.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\bin\Debug\03-Range Exceptions.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\bin\Debug\03-Range Exceptions.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\obj\Debug\03-Range Exceptions.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\03-Range Exceptions\obj\Debug\03-Range Exceptions.pdb

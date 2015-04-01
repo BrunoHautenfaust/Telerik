@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\bin\Debug\01-Shapes.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\obj\Debug\01-Shapes.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\bin\Debug\01-Shapes.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\bin\Debug\01-Shapes.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\obj\Debug\01-Shapes.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\OOP Principles - Part 2\01-Shapes\obj\Debug\01-Shapes.pdb
