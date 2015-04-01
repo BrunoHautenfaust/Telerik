@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Task_1___GSM
 {
-    class GSM
+    class GSM 
     {
         private string model;
         private string manufacturer;
@@ -15,12 +15,12 @@ namespace Task_1___GSM
         private Display display = new Display();                                 
         private List<Call> callHistory;
 
-        public static GSM iPhone = new GSM("IPhone4S", "Apple", 1999.99m, "Petkan",
+        private static GSM iPhone = new GSM("IPhone4S", "Apple", 1999.99m, "Petkan",
             new Battery("A1332", 200, 14, BatteryType.LiPo), new Display(3.5, 2));
 
         // PROPERTIES:
         // Iphone                                                   <<< DOES THIS DO ANYTHING?!
-        public GSM IPhone
+        public static GSM IPhone
         {
             get
             {
@@ -137,9 +137,8 @@ namespace Task_1___GSM
         }
 
         public GSM(string model, string manufacturer, decimal? price, string owner)
+            : this(model, manufacturer)
         {
-            this.Model = model;
-            this.Manufacturer = manufacturer;
             this.Price = price;
             this.Owner = owner;
         }
@@ -177,7 +176,7 @@ namespace Task_1___GSM
 
         public void ClearHistory()
         {
-            CallHistory.Clear();
+            this.CallHistory.Clear();
         }
 
         public decimal TotalPrice(decimal price)
@@ -188,7 +187,7 @@ namespace Task_1___GSM
                 totalDuration += callHistory[i].Duration;
             }
             decimal totalPrice = price * totalDuration;
-            return totalDuration / 60;
+            return totalPrice / 60;
         }
 
         //public string PrintCallHistory()
