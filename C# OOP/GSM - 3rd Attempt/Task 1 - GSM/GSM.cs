@@ -19,7 +19,7 @@ namespace Task_1___GSM
             new Battery("A1332", 200, 14, BatteryType.LiPo), new Display(3.5, 2));
 
         // PROPERTIES:
-        // Iphone                                                   <<< DOES THIS DO ANYTHING?!
+        // Iphone                                                  
         public static GSM IPhone
         {
             get
