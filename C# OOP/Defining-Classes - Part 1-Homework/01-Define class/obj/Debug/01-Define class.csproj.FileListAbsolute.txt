@@ -1,6 +1,0 @@
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\bin\Debug\01-Define class.exe.config
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\bin\Debug\01-Define class.exe
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\bin\Debug\01-Define class.pdb
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\obj\Debug\01-Define class.csprojResolveAssemblyReference.cache
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\obj\Debug\01-Define class.exe
-C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Defining-Classes - Part 1-Homework\01-Define class\obj\Debug\01-Define class.pdb
