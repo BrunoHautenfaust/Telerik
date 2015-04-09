@@ -2,7 +2,7 @@
 
 namespace _03_Animal_hierarchy
 {
-    class Kitten : Cat
+    public class Kitten : Cat
     {
     
         public Kitten(int age, string name)

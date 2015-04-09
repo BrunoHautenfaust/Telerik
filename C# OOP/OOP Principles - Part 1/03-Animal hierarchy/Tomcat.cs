@@ -3,7 +3,7 @@
 
 namespace _03_Animal_hierarchy
 {
-    class Tomcat : Cat
+   public class Tomcat : Cat
     {
 
         public Tomcat(int age, string name)

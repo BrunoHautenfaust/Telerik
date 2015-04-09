@@ -43,7 +43,7 @@ namespace _09_StudentGroups
             Console.WriteLine(new string('=', 20) + "Problem 11" + new string('=', 20));
 
             var sortedStudents3 = from student in students
-                                  where student.Email.Substring(student.Email.IndexOf("@") + 1) == "abv.bg"
+                                  where student.Email.Contains("abv.bg")
                                   select student;
 
             Console.WriteLine(string.Join(Environment.NewLine, sortedStudents3));
@@ -61,7 +61,7 @@ namespace _09_StudentGroups
 
             var sortedStudents5 = from student in students
                                   where student.Marks.Contains(6)
-    /*select new!?*/         select new { FullName = student.FirstName + " " + student.LastName,
+           select new { FullName = student.FirstName + " " + student.LastName,       /*select new - creates the new anon class*/ 
                                                Marks = string.Join(", ", student.Marks) };
                                   
             Console.WriteLine(string.Join(Environment.NewLine, sortedStudents5));

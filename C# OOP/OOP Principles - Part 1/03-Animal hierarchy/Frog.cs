@@ -2,7 +2,7 @@
 
 namespace _03_Animal_hierarchy
 {
-    class Frog : Animals
+    public class Frog : Animals
     {
         public Frog()
         {
@@ -14,7 +14,7 @@ namespace _03_Animal_hierarchy
 
         }
 
-        public new void MakeASound()
+        public override void MakeASound()
         {
             Console.WriteLine("Ribbit!");
         }

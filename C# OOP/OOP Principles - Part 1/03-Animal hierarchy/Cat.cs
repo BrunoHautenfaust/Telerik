@@ -2,7 +2,7 @@
 
 namespace _03_Animal_hierarchy
 {
-    class Cat : Animals
+   public class Cat : Animals
     {
         public Cat()
         {
@@ -15,7 +15,7 @@ namespace _03_Animal_hierarchy
 
         }
 
-        public new void MakeASound()        
+        public override void MakeASound()        
         {
             Console.WriteLine("Meow!");
         }

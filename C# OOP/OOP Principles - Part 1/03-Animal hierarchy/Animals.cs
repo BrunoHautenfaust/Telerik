@@ -4,18 +4,17 @@ using System.Collections.Generic;
 
 namespace _03_Animal_hierarchy
 {
-    class Animals : ISound
+   public abstract class Animals : ISound
     {   
 
         public int Age { get; set; }
         public string Name { get; set; }
         public char Sex { get; set; }
 
-        public Animals()
+       public Animals()
         {
 
         }
-
         public Animals(int age, string name, char sex)
         {
             this.Age = age;
@@ -23,7 +22,7 @@ namespace _03_Animal_hierarchy
             this.Sex = sex;
         }
 
-        public void MakeASound()
+        public virtual void MakeASound()
         {
             Console.WriteLine("Default animal sound!");
         }
