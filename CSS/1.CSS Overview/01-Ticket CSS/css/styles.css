@@ -1,0 +1,55 @@
+body {
+	background-color: #737379;
+}
+
+td {
+	text-align: left; 
+    vertical-align: top;
+	height: 25px; 
+    width: 135px;
+    font-family: arial;
+    font-size: 0.9em;
+}
+
+.col_top {
+	font-size: 1.2em;
+}
+.col1 {
+	color: white;
+	font-style: italic;
+}
+.col2 {
+	color: #FFFFCE;
+}
+.col_red {
+	color: red;
+	
+}
+.col_orange {
+	color: #E18700;
+}
+
+.col_gray {
+	color: #C0C0C0;
+}
+
+.col_align_right {
+	text-align: right !important;
+	padding-right: 1.5em;
+}
+
+.div1 {
+	position: absolute;
+	top: 25px;
+	left: 145px;
+	float: left;
+	color: #00D9A3;
+	font-size: 2.8em;
+	z-index: 1;
+}
+
+.div2 {
+	position: absolute;
+	left: 160px;
+	z-index: 0;
+}

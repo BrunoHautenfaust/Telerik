@@ -1,0 +1,43 @@
+body {
+	background-color: #B2B2B2;
+}
+
+header {
+	color: #FFFFD9;
+	font-size: 20px;
+}
+
+body > header {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.center_footer {
+	text-align: center;
+}
+
+.underline {
+	text-decoration: underline;
+	color: white;
+}
+
+a {
+	text-decoration:none;
+	color: white;
+}
+
+nav a:hover {
+	background-color: #E2E2E2;
+}
+
+footer > p > a {
+	color: black;
+}
+
+footer {
+	font-size: 14px;
+}
