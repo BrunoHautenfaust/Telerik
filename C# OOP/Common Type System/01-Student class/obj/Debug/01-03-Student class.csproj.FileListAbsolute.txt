@@ -1,0 +1,8 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\01-Student class\bin\Debug\01-Student class.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\01-Student class\bin\Debug\01-Student class.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\01-Student class\bin\Debug\01-Student class.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\01-Student class\obj\Debug\01-Student class.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\01-Student class\obj\Debug\01-Student class.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\01-Student class\bin\Debug\01-Student class.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\01-Student class\obj\Debug\01-Student class.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\01-Student class\obj\Debug\01-Student class.pdb

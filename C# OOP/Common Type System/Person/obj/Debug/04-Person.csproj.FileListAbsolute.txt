@@ -1,0 +1,11 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\Person\bin\Debug\Person.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\Person\obj\Debug\Person.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\Person\obj\Debug\Person.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\Person\bin\Debug\Person.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\C# OOP\Common Type System\Person\bin\Debug\Person.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\bin\Debug\Person.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\obj\Debug\Person.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\obj\Debug\Person.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\bin\Debug\Person.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\bin\Debug\Person.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\C# OOP\Common Type System\Person\obj\Debug\04-Person.csprojResolveAssemblyReference.cache
