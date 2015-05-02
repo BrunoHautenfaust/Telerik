@@ -2,13 +2,13 @@ body {
 	background-color: #B2B2B2;
 }
 
+body > header > h1, nav {
+	text-align: center;
+}
+
 header {
 	color: #FFFFD9;
 	font-size: 20px;
-}
-
-body > header {
-	text-align: center;
 }
 
 li {
@@ -16,13 +16,13 @@ li {
 	font-weight: bold;
 }
 
-.center_footer {
-	text-align: center;
-}
-
-.underline {
+ul > li:last-child {
 	text-decoration: underline;
 	color: white;
+}
+
+footer {
+	text-align: center;
 }
 
 a {
@@ -36,6 +36,10 @@ nav a:hover {
 
 footer > p > a {
 	color: black;
+
+}
+ footer > p {
+text-align: left;
 }
 
 footer {
