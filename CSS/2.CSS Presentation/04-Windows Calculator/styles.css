@@ -1,0 +1,184 @@
+
+#d1 {
+	width: 500px;
+	height: 440px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-image: url("images/background.png");
+}
+
+img {
+	position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+#d2 {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 80px;
+	height: 25px;
+	position: fixed;
+	top: 8px;
+    left: 410px;
+}
+
+input[type="button"] {
+  cursor:pointer; 
+  border: 1px solid #707070;
+  background-color: #F0F0F0;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: inset 0 1px 2px #fff, inset 0 -0.7em #DDD;
+  -o-box-shadow: inset 0 1px 2px #fff, inset 0 -0.7em #DDD;
+  -webkit-box-shadow: inset 0 1px 2px #fff, inset 0 -0.7em #DDD;
+  -moz-box-shadow: inset 0 1px 2px #fff, inset 0 -0.7em #DDD;
+  position: relative;
+  top: -1px;
+  left: -2px;
+  width: 24px;
+  height: 26px;
+  margin: -2px;	
+}
+
+
+input[type="button"]:hover {
+background-color: orange;
+box-shadow: inset 0 1px 2px orange, inset 0 -0.7em orange;
+-webkit-transition: all ease 0.7s;
+-moz-transition: all ease 0.7s;
+-o-transition: all ease 0.7s;
+-ms-transition: all ease 0.7s ;
+transition: all ease 0.5s ;
+
+}
+
+p {
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+.table {
+	border-radius: 2px;
+	width: 98%;
+	margin-left: 5px;
+}
+
+.toolbar {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ccc;
+}
+
+#screen	{
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 97%;
+	height: 45px;
+	position: relative;
+	top: 0px;
+    left: 5px;
+
+background: #d4e4ef; /* Old browsers */
+background: -moz-linear-gradient(top,  #d4e4ef 0%, #ffffff 69%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4e4ef), color-stop(69%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d4e4ef 0%,#ffffff 69%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d4e4ef 0%,#ffffff 69%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d4e4ef 0%,#ffffff 69%); /* IE10+ */
+background: linear-gradient(to bottom,  #d4e4ef 0%,#ffffff 69%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+outline: 1px solid white;
+outline-offset: -2px;
+
+}
+
+#screen > p {
+	text-align: right;
+	padding-top: 13px;
+	padding-right: 5px;
+	font-size: 1.5em;
+	font-weight: 550;
+}
+
+#values {
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 96%;
+	height: 82px;
+	position: relative;
+	top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+
+outline: 1px solid white;
+outline-offset: -2px;
+
+}
+
+.c47 {
+	margin-left: 224px;
+}
+
+.c32 {
+	margin-left: 180px;	
+}
+
+.c0 {
+	margin-left: 188px;	
+}
+
+.c63, .c47, .c32, .c0 {
+	color: #888;
+}
+
+#left {
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 16%;
+	height: 90px;
+	position: relative;
+	top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+#buttons {
+	position: relative;
+	bottom: 209px;
+	left:100px;
+	width: 372px;
+	height: 210px;
+	padding-left: 5px;
+}
+
+div#buttons input[type="button"] {
+    width: 40px;
+    height: 28px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+div#buttons input[type="button"].but0 {
+	 width: 85px;
+}
+
+div#equals input[type="button"].butEq {
+	 position: absolute;
+	 top: 371px;
+	 left: 448px;
+	 width: 40px;
+	 height: 62px;
+}
+
+input[type="button"].transp {
+	background-color: Transparent;
+	box-shadow: inset 0 0px 0px #fff, inset 0 0em #DDD;
+  	-o-box-shadow: inset 0 0px 0px #fff, inset 0 0em #DDD;
+  	-webkit-box-shadow:inset 0 0px 0px #fff, inset 0 0em #DDD;
+  	-moz-box-shadow: inset 0 0px 0px #fff, inset 0 0em #DDD;
+}
