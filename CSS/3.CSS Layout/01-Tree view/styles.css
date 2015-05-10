@@ -1,0 +1,23 @@
+nav ul {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul ul {
+	display: none;
+	color: gray;
+	padding-left: 10px;
+}
+
+li:hover > ul {
+	display: block;
+	text-decoration: none !important;
+}
