@@ -1,0 +1,181 @@
+﻿@mixin linear-gradient($from, $from-pos, $mid, $mid-pos, $to, $to-pos, $repeat: no-repeat) {
+    background: -moz-linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background: -o-linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background: -webkit-linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background: -o-linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background: -ms-linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background: linear-gradient($from $from-pos, $mid $mid-pos, $to $to-pos);
+    background-repeat: $repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=0 );
+    /* IE6-9 */
+}
+
+$radius: 10px;
+$transparent: transparent;
+$border: 1px solid;
+
+.clearfix {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.border-style {
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: black;
+    padding: 10px 20px;
+    box-shadow: 0.005em -0.005em 0.005em 0.003em black;
+}
+
+// ==========
+
+body {
+    font: 14px normal Arial;
+    color: white;
+    height: 100%;
+    @include linear-gradient(#DB91FF, 0%, #8500CC, 15%, #9900FF, 25%);
+}
+
+#logo-container {
+    float: left;
+}
+
+#reg-form-container {
+    position: relative;
+    top: 25px;
+    left: 600px;
+    @extend .clearfix;
+
+    input {
+        margin-bottom: 5px;
+        border-radius: $radius;
+        background: #B900FF;
+        border: $border;
+        width: 120px;
+
+        &:nth-of-type(2) {
+            margin-left: 2px;
+        }
+    }
+
+    button {
+        background-color: rgb(179, 94, 243);
+        border-radius: $radius;
+        padding: 5px 10px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.nav-list {
+    list-style-type: none;
+    @extend .border-style;
+    width: 850px;
+
+    li {
+        display: inline-block;
+        margin: 0 8px;
+
+        & ul {
+            display: none;
+        }
+
+        & a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &:hover > ul {
+            display: block;
+            width: 170px;
+            position: absolute;
+            background: #8500CC;
+            z-index: 1;
+        }
+
+        & > ul li {
+            display: block;
+        }
+    }
+}
+
+section {
+    float: left;
+    display: inline-block;
+    width: 800px;
+
+    article {
+        @extend .border-style;
+        width: 800px;
+        display: inline-block;
+        margin-bottom: 15px;
+
+        & a {
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        & footer p:last-child {
+            text-align: right;
+            font-weight: normal;
+        }
+
+        & footer time {
+            font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+        }
+    }
+}
+
+
+aside {
+    margin-left: 830px;
+    margin-top: 45px;
+
+    & ul {
+        list-style-type: none;
+
+        & li strong {
+            color: lightgray;
+        }
+
+        & li:last-child em {
+            color: lightgray;
+        }
+
+        & > li {
+            @extend .border-style;
+            width: 280px;
+            margin-bottom: 20px;
+
+            & a {
+                color: #aaa;
+                text-decoration: none;
+            }
+
+            &:nth-of-type(2) ul {
+                list-style-image: url("images/li-dot.png");
+
+                & li {
+                    border: none;
+                    box-shadow: none;
+                    padding: 0;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    @extend .clearfix;
+}
+
+body footer {
+    text-align: center;
+    font-weight: bold;
+}
