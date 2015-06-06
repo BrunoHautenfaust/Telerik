@@ -53,16 +53,16 @@ function occurrences(someText, target) {
 	return found;
 }
 
-// 2 - Case insensitive		!!??
+// 2 - Case insensitive		
 
 function occurrencesRegEx(someText, target) {
-	var regex = new RegExp(target['i']);		// !?
+	var regex = new RegExp(target, 'ig');		
 	var found = someText.match(regex);
 	return found;
 }
 
-console.log(occurrences(text1, 'pizza'));
-console.log(occurrencesRegEx(text2, 'pizza'));
+console.log('Case sensitive -> '+occurrences(text1, 'pizza'));
+console.log('Case insensitive -> '+occurrencesRegEx(text2, 'pizza'));
 
 // Problem 4. Number of elements          
 console.log('===== Problem 4. Number of elements =====');
@@ -71,7 +71,7 @@ function numberOfElements() {
 	var count = document.getElementsByTagName('div').length;
 	return count;
 }
-// Paste this line in browser console to test:
+// Paste this line in browser console to test:    <<<<<<<<<
 // console.log(numberOfElements());   
 
 // Problem 5. Appearance count
