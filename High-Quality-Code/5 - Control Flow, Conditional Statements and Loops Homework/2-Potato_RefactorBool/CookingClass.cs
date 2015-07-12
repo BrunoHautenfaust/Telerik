@@ -16,9 +16,13 @@
         {
             if (potato != null)
             {
-                if (potato.IsPeeled && potato.IsRotten)
+                if (potato.IsPeeled && !potato.IsRotten)
                 {
                     Cook(potato);
+                }
+                else
+                {
+                    Console.WriteLine("I REFUSE to cook rotten potatoes!!!");
                 }
             }
         }
