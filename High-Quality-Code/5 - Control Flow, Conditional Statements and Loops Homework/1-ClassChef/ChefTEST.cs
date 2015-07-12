@@ -10,7 +10,6 @@
 
             Chef c = new Chef();
             c.Cook();
-            Console.WriteLine("\nТвърде семпла презентация! Дори няма да го опитвам!");
         }
     }
 }
