@@ -15,7 +15,7 @@
                     Console.WriteLine("Value Found.");
                     break;
                 }
-                if (i == array.Length - 1 && array[i] != expectedValue)
+                if (i == array.Length - 1)
                 {
                     Console.WriteLine("Value not Found.");
                 }
