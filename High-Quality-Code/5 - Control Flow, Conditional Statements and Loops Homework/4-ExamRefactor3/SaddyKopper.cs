@@ -31,7 +31,7 @@
                 Console.WriteLine("Input a number between 10,000,000 and 99,999,999,999,999,999:");
                 number = BigInteger.Parse(Console.ReadLine());
             } while(number < 10000000 || number > 99999999999999999);
-            int counter = 0;
+            //int counter = 0;
             BigInteger innerSum = 0;
             BigInteger innerProduct = 1;
             int transformation = 0;
@@ -42,17 +42,24 @@
             {
                 text = text.Remove(text.Length - 1);
                 
-                foreach (char symbol in text)
+                // New:
+                for (int i = 0; i < text.Length; i += 2)
                 {
-                    if (counter % 2 == 0)
-                    {
-                        innerSum += symbol - '0';
-                    }
-                    counter++;
+                    innerSum += text[i] - '0';
                 }
+                
+                // Old:
+                //foreach (char symbol in text)
+                //{
+                //    if (counter % 2 == 0)
+                //    {
+                //        innerSum += symbol - '0';
+                //    }
+                //    counter++;
+                //}
                 innerProduct *= innerSum;
                 innerSum = 0;               
-                counter = 0;                
+                //counter = 0;                
                
                 if (text.Length == 1 && transformation < 10)
                 {
