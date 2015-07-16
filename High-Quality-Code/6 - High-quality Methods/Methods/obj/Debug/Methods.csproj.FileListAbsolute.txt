@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\Methods\obj\Debug\Methods.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\Methods\obj\Debug\Methods.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\Methods\obj\Debug\Methods.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\Methods\obj\Debug\Methods.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\Methods\bin\Debug\Methods.pdb

@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\BadCat\obj\Debug\BadCat.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\High-Quality-Code\6 - High-quality Methods\BadCat\obj\Debug\BadCat.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.exe.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\BadCat\bin\Debug\BadCat.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\BadCat\obj\Debug\BadCat.exe
+C:\Users\HP\Documents\Visual Studio 2013\Projects\Git-Repository\Telerik\High-Quality-Code\6 - High-quality Methods\BadCat\obj\Debug\BadCat.pdb
