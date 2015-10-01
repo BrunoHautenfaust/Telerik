@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students_xslt.xslt"?>
+<students xmlns:students="urn:students">
+  <student>
+    <name>Fidanka</name>
+    <gender>Female</gender>
+    <birthDate>27.11.1991</birthDate>
+    <phone>0886 594 232</phone>
+    <email>fidanka@yahoo.com</email>
+    <course>HTML</course>
+    <specialty>KST</specialty>
+    <facultyNumber>123456</facultyNumber>
+    <enrollment>
+      <date>30.09.2015</date>
+      <examScore>6</examScore>
+      <endorsements>Excellent</endorsements>
+    </enrollment>
+    <takenExams>
+      <exam>
+        <name>C#</name>
+        <tutor>Petkan</tutor>
+        <score>6</score>
+      </exam>
+    </takenExams>
+  </student>
+  <student>
+    <name>Ivan</name>
+    <gender>Male</gender>
+    <birthDate>03.03.1990</birthDate>
+    <phone>0889 345 294</phone>
+    <email>ivan@gmail.com</email>
+    <course>CSS</course>
+    <specialty>KST</specialty>
+    <facultyNumber>123457</facultyNumber>
+    <enrollment>
+      <date>30.09.2015</date>
+      <examScore>5</examScore>
+      <endorsements>Excellent</endorsements>
+    </enrollment>
+    <takenExams>
+      <exam>
+        <name>HTML</name>
+        <tutor>Dragan</tutor>
+        <score>6</score>
+      </exam>
+    </takenExams>
+  </student>
+  <student>
+    <name>Petar</name>
+    <gender>Male</gender>
+    <birthDate>03.05.1991</birthDate>
+    <phone>0889 234 477</phone>
+    <email>petar@gmail.com</email>
+    <course>JS</course>
+    <specialty>KST</specialty>
+    <facultyNumber>123458</facultyNumber>
+    <enrollment>
+      <date>30.09.2015</date>
+      <examScore>4</examScore>
+      <endorsements>Good</endorsements>
+    </enrollment>
+    <takenExams>
+      <exam>
+        <name>HTML</name>
+        <tutor>Dragan</tutor>
+        <score>5</score>
+      </exam>
+      <exam>
+        <name>C#</name>
+        <tutor>Petkan</tutor>
+        <score>5</score>
+      </exam>
+    </takenExams>
+  </student>
+</students>
+
