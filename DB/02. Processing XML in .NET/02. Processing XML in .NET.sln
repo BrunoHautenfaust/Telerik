@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. DomParser", "02. DomParser\02. DomParser.csproj", "{98CD51F6-EBE9-410C-A63A-216EBAD09252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. XPath", "03. XPath\03. XPath.csproj", "{2A63EDB1-8E69-4EF9-9DF5-4B2A5870B4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. DomParser_Delete", "04. DomParser_Delete\04. DomParser_Delete.csproj", "{8B27750D-ED82-44C1-8D62-58FA6FEC1A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. XmlReaderExtractSongs", "05. XmlReaderExtractSongs\05. XmlReaderExtractSongs.csproj", "{A9B80D41-B651-425D-8697-692CEFE78756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. XDocumentExtractSongs", "06. XDocumentExtractSongs\06. XDocumentExtractSongs.csproj", "{078A3B94-DF9E-4845-A1DA-DB53816EECED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. TextToXML", "07. TextToXML\07. TextToXML.csproj", "{38F9F2E6-F83B-4E05-BB6F-8144596033ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. XmlToXml", "08. XmlToXml\08. XmlToXml.csproj", "{96DC2311-FE58-4F0D-A994-F617E02D8737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98CD51F6-EBE9-410C-A63A-216EBAD09252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD51F6-EBE9-410C-A63A-216EBAD09252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CD51F6-EBE9-410C-A63A-216EBAD09252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD51F6-EBE9-410C-A63A-216EBAD09252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A63EDB1-8E69-4EF9-9DF5-4B2A5870B4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A63EDB1-8E69-4EF9-9DF5-4B2A5870B4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A63EDB1-8E69-4EF9-9DF5-4B2A5870B4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A63EDB1-8E69-4EF9-9DF5-4B2A5870B4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B27750D-ED82-44C1-8D62-58FA6FEC1A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B27750D-ED82-44C1-8D62-58FA6FEC1A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B27750D-ED82-44C1-8D62-58FA6FEC1A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B27750D-ED82-44C1-8D62-58FA6FEC1A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B80D41-B651-425D-8697-692CEFE78756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B80D41-B651-425D-8697-692CEFE78756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B80D41-B651-425D-8697-692CEFE78756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B80D41-B651-425D-8697-692CEFE78756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078A3B94-DF9E-4845-A1DA-DB53816EECED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078A3B94-DF9E-4845-A1DA-DB53816EECED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078A3B94-DF9E-4845-A1DA-DB53816EECED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078A3B94-DF9E-4845-A1DA-DB53816EECED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F9F2E6-F83B-4E05-BB6F-8144596033ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F9F2E6-F83B-4E05-BB6F-8144596033ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F9F2E6-F83B-4E05-BB6F-8144596033ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F9F2E6-F83B-4E05-BB6F-8144596033ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DC2311-FE58-4F0D-A994-F617E02D8737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DC2311-FE58-4F0D-A994-F617E02D8737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DC2311-FE58-4F0D-A994-F617E02D8737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DC2311-FE58-4F0D-A994-F617E02D8737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

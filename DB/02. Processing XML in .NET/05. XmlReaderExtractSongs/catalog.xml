@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Some album</name>
+    <artist>Artist 1</artist>
+    <year>1999</year>
+    <producer>Producer 1</producer>
+    <price>5.00</price>
+    <songs>
+      <song>
+        <title>Song 1</title>
+        <duration>4:39</duration>
+      </song>
+    <song>
+        <title>Song 2</title>
+        <duration>5:42</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Another album</name>
+    <artist>Artist 2</artist>
+    <year>2000</year>
+    <producer>Producer 2</producer>
+    <price>8.00</price>
+    <songs>
+      <song>
+        <title>Song 1</title>
+        <duration>2:56</duration>
+      </song>
+    <song>
+        <title>Song 2</title>
+        <duration>3:32</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Yet another album</name>
+    <artist>Artist 1</artist>
+    <year>1998</year>
+    <producer>Producer12</producer>
+    <price>21.00</price>
+    <songs>
+      <song>
+        <title>Song 1</title>
+        <duration>3:46</duration>
+      </song>
+    <song>
+        <title>Song 2</title>
+        <duration>6:32</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
